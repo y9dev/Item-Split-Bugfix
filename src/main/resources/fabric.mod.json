@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "item_split_bugfix",
+	"version": "${version}",
+	"name": "Item Split Bugfix",
+	"description": "",
+	"authors": [
+		"y9lihop"
+	],
+	"license": "GPL-v3",
+	"icon": "assets/isb/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.y9.ItemSplitBugfix"
+		]
+	},
+	"mixins": [
+		"isb.mixins.json",
+		{
+			"config": "isb.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}

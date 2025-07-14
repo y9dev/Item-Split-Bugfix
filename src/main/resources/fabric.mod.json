@@ -7,7 +7,7 @@
 	"authors": [
 		"y9lihop"
 	],
-	"license": "GPL-v3",
+	"license": "GPL-3.0",
 	"icon": "assets/isb/icon.png",
 	"environment": "*",
 	"entrypoints": {

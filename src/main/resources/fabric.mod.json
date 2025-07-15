@@ -3,7 +3,7 @@
 	"id": "item_split_bugfix",
 	"version": "${version}",
 	"name": "Item Split Bugfix",
-	"description": "",
+	"description": "Fixing item split bug in any modpacks",
 	"authors": [
 		"y9lihop"
 	],
